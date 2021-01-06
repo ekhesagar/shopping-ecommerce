@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
 
 body{
   font-family: 'Open Sans Condensed';
@@ -8,4 +7,8 @@ body{
 a{
   text-decoration: none;
   color: black
+}
+
+* {
+  box-sizing: border-box;
 }
