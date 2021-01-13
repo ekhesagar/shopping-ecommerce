@@ -21,9 +21,9 @@ export const firestore = firebase.firestore();
 
 
 
-// A function to the current user into database, if the user is not signed in
+// A function to store the current user into database, if the user is not registered
 export const createUserProfileDocument = async (userAuth, additionalData) => {
-    // if user is not logged in return 
+    // if user is not logged-in return 
     if(!userAuth) return ;
 
     // if user has signed in then find it in firestore database
