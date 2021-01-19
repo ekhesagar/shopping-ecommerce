@@ -30,6 +30,13 @@
         align-items: center;
         justify-content: center;
         border: 1px solid black;
+        background-color: white;
+        opacity: 0.65;
+
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
 
         .title {
             font-weight: bold;
